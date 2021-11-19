@@ -63,7 +63,7 @@ var vueTouchEvents = {
                 return;
             }
 
-            if ($this.touchStarted) {
+            if ($this.touchStarted && !isMouseEvent) {
                 return;
             }
 
